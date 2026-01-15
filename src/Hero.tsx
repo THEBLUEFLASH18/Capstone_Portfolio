@@ -1,5 +1,7 @@
 import './Hero.css'
 import Marcos from '/Users/theblueflash/Desktop/Capstone_Portfolio/public/MarcosG.png'
+import Spline from '@splinetool/react-spline';
+
 
 
 
@@ -15,7 +17,11 @@ function Hero() {
                 <div className='box' style={{ gridArea: "box3" }}>
                     <img src={Marcos} alt="" />
                 </div>
-                <div className='box' style={{ gridArea: "box4" }}></div>
+                <div className='box' style={{ gridArea: "box4" }}>
+                    <Spline
+                        scene="https://prod.spline.design/ImQHv2Rm9GyWepRh/scene.splinecode"
+                    />
+                </div>
                 <div className='box' style={{ gridArea: "box5" }}>
                     <h1><span>About Me</span></h1>
                     <p>Hi, I'm Marcos Galdamez. I'm a Full Stack Developer with a passion for creating engaging and user-friendly web applications.
