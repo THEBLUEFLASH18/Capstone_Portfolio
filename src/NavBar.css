@@ -5,7 +5,7 @@
     border-radius: 25px;
     justify-content: space-around;
     align-items: center;
-    margin: 10px auto 0;
+    margin: 10px auto;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(12px);
 }
@@ -20,18 +20,4 @@ button a {
     margin-right: 2px;
     margin-left: 2px;
     border-radius: 8px;
-}
-
-.outerNavbarButtonsStyle {
-    margin-right: 2px;
-    margin-left: 2px;
-    border-radius: 8px;
-}
-
-.outerNavbarButtonsStyle.contactButton:hover {
-    background-color: darkcyan;
-}
-
-.outerNavbarButtonsStyle.contactButton:active {
-    background-color: rgb(0, 95, 95);
 }
