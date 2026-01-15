@@ -1,5 +1,4 @@
 import './Hero.css'
-import Marcos from '/Users/theblueflash/Desktop/Capstone_Portfolio/public/MarcosG.png'
 import Spline from '@splinetool/react-spline';
 
 
@@ -15,7 +14,7 @@ function Hero() {
                     <p>BS Information Science -  Web Development Tech <span>2026</span></p>
                 </div>
                 <div className='box' style={{ gridArea: "box3" }}>
-                    <img src={Marcos} alt="" />
+                    <img src="/MarcosG.png" alt="" />
                 </div>
                 <div className='box' style={{ gridArea: "box4" }}>
                     <Spline
