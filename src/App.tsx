@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './NavBar'
 import Hero from './Hero'
+import Body from './Body'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavBar />
       <Hero />
+      <Body />
     </>
   )
 }
