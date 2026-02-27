@@ -1,81 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
 
-body {
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-img {
+    width: 50%;
+    height: 100%;
+}
+
+.hero-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.hero-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-}
-
-.box {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 10%;
+    width: 50%;
+    height: 50%;
     text-align: center;
-    font-family: 'Recursive', sans-serif;
-    padding: 5px;
 }
 
-.box p {
-    font-size: 14px;
-}
-
-span {
-    animation-name: personalAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.hero-text h1 {
+    font-size: 5em;
     font-weight: bold;
 }
 
-@keyframes personalAnimation {
-    0% {
-        color: black;
-    }
-
-    50% {
-        color: gray;
-    }
-
-    100% {
-        color: #038989;
-    }
-}
-
-.grid-container {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    gap: 1em;
-    grid-template-areas:
-        "box1 box2 box2"
-        "box1 box3 box4"
-        "box5 box5 box6"
-    ;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    border-radius: 10%;
-}
-
-
-.box6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    list-style-type: none;
-    font-size: .7em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
-    padding: 0;
-    margin: 1em;
+.hero-text p {
+    font-size: 2em;
 }
