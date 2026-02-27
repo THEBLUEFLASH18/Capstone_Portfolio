@@ -36,40 +36,32 @@ function Body() {
             fullText: `Introduction
 
 
-                        As a student finishing a major in Information Science with a Web Development Tech focus, I will be programming in many of the Front End and Back End programming languages. In that extensive list is TypeScript, which originates from JavaScript, and is a language meant to power the prevention of errors in variables when programming. This error preventing strategic programming language leads to better compiling times and more enhanced production ready websites. With that in mind, I wanted to attend an online webinar that revolved around this programming language, after all it is this very language that I will be using to create my capstone website to show case my skills. I was fortunate enough to attend the “How to Use TypeScript Effectively in Backend Applications,” presented by Brandon Ly, a Software Engineer who is currently at MongoDB. Data systems and Data Structures are becoming harder to understand with so many of their diverse and complex background data types, but this presentation provides a bridge between those backgrounds. In this report I will be reflecting on the information introduced to me by Ly. 
+As a student finishing a major in Information Science with a Web Development Tech focus, I will be programming in many of the Front End and Back End programming languages. In that extensive list is TypeScript, which originates from JavaScript, and is a language meant to prevent a multitude of errors in regard to variables while developing code. This error preventing, enables a strong and strategic programming language to increase production flow during compiling times and more enhanced production ready websites. With that in mind, I wanted to attend an online webinar that revolved around this programming language, after all it is this very language that I will be using to create my capstone website to showcase my skills. I was fortunate enough to attend the “How to Use TypeScript Effectively in Backend Applications,” presented by Brandon Ly, a Software Engineer who is currently at MongoDB. Data systems and data structures are becoming harder to understand with so many of their diverse and complex background data types, but this presentation provides a bridge between those backgrounds. In this report I will be reflecting on the information introduced to me by Ly. 
 
 
-
-                        
-                        
-                        Content Analysis
+Content Analysis
 
 
-                        
-                        
-                        Brandon Ly made various important points during his presentation, but there were some that I found more crucial than others to truly understanding what TypeScript offers and does. Ly goes on to explain that many individuals think of TypeScript as some kind of “Safety Net”. As I spoke about in my introduction, the “Type” declaration that TypeScript presents to prevent mistakes at run time because they are addressed before or during compiling. This is important to any Information Science Major, as we deal with all kinds of data daily, but TypeScript can enable us to predetermine what data “type” to accept within our code. Other programming languages take additional code to prevent the insertion of the wrong data type, TypeScript already has this integrated. With TypeScript as I am programming, it will dictate an error message displaying what variable is missing information, and what that missing information should be. If I was working with JavaScript, our “system” could be broken but the code might run, TypeScript does not need to be run for it to enable us to make corrections and adjustments. This system goes beyond a safety net.
+	Brandon Ly made various important points during his presentation, but there were some that I found more crucial than others to truly understanding what TypeScript offers and does. Ly goes on to explain that many individuals think of TypeScript as some kind of “Safety Net”. As I spoke about in my introduction, the “Type” declaration that TypeScript presents to allows programmers to correct mistakes at run time because they are addressed before compiling. This is important to any Information Science Major, as we deal with all kinds of data daily, but TypeScript can enable us to predetermine what data “type” to accept within our code. Other programming languages take exceptionally large amounts of code to prevent the insertion of the wrong data type, TypeScript already has this integrated. With TypeScript, during development, it will dictate an error message displaying what variable is missing information, and what that missing information should be. If I was working with JavaScript, our “system” could be broken but the code might run, TypeScript does not need to be run for it to enable us to make corrections and adjustments. This system goes beyond a safety net when performed under the right conditions.
 
 
-                        
-                        
-                        Drawbacks
+Drawbacks
 
 
-
-                        While TypeScript can be an essential tool for any developer working with data on Front End platforms, it needs to be managed correctly for it to function as intended. I found this interesting, without the user fully knowing what information they will be working with, they are forced to use the “any” type declaration. The any allows users to enter values from inputs, without limits on the data acceptable. This seems amazing, but it defeats the purpose of TypeScript, technically speaking, JavaScript inputs already can accept “any” data type. For a programmer to use TypeScript correctly, they must understand that more work in understanding code and entry values might be required, they can never settle for the false security that comes with this programming language, and finally this safety is only processed at compiling time, not runtime (Ly, Brandon, 2023). 
-
-
-                        
-                        Conclusion
+While TypeScript can be an essential tool for any developer working with data on Front End platforms, it needs to be managed correctly for it to function as intended. I found this interesting, without the user fully knowing what information they will be working with, they are forced to use the “any” type declaration. The any allows users to enter values from inputs, without limits on the data acceptable. This seems amazing, but it defeats the purpose of TypeScript, technically speaking, JavaScript inputs already can accept “any” data type. For a programmer to use TypeScript correctly, they must understand that more work in understanding code and entry values might be required, they can never settle for the false security that comes with this programming language, and finally this safety is only processed at compiling time, not runtime (Ly, Brandon, 2025). 
 
 
-                        To finalize, I learned the essential rules revolving TypeScript, and its use cases. As I learn more about its incorporation to my already developed tech stack, I will continue to grow as a programmer by fixing mistakes before they happen. All the information presented by Ly is insightful and directly applies to the field I’m currently finishing my education in. In my career I will be working with data, but before I can analyze that data, I could use TypeScript to start filtering out information. This could greatly impact my workflow, turning raw data into information before its even processed with languages like R and SQL.
+Conclusion
 
 
-                        References
-                        
+To finalize, I learned the essential rules revolving TypeScript, and its use cases. As I learn more about its incorporation to my already developed tech stack, I will continue to grow as a programmer by fixing mistakes before they happen. All the information presented by Ly is insightful and directly applies to the field I’m currently finishing my education in. In my career I will be working with data, but before I can analyze that data, I could use TypeScript to start filtering out information. This could greatly impact my workflow, by forcing the verification of the structure of my raw data, TypeScript sets in motion more preparation for my R and SQL query clean up.
 
-                        Ly, B. (2025, December — specific day not shown). How to use TypeScript effectively in backend applications. Codementor. https://www.codementor.io/events/how-to-use-typescript-effectively-in-backend-applications-ieg70ay3ro`
+
+ References
+
+ 
+Ly, B. (2025, December — specific day not shown). How to use TypeScript effectively in backend applications. Codementor. https://www.codementor.io/events/how-to-use-typescript-effectively-in-backend-applications-ieg70ay3ro
+`
         },
         {
             id: 2,
