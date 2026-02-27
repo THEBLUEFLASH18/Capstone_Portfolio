@@ -1,5 +1,4 @@
 import './Hero.css'
-import Marcos from '/Users/theblueflash/Desktop/Capstone_Portfolio/public/MarcosG.png'
 
 
 function Hero() {
@@ -13,7 +12,7 @@ function Hero() {
                     <p>A Full Stack Developer</p>
                 </section>
                 <section className="hero-img">
-                    <img src={Marcos} alt="Professional Portrait of Marcos Galdamez" />
+                    <img src="/public/MarcosG.png" alt="Professional Portrait of Marcos Galdamez" />
                 </section>
             </main>
         </>
